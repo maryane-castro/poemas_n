@@ -4,6 +4,7 @@
 body, html{
     margin: 0px;
     background-color: white;
+    min-height: 100vh;
 }
 
 
@@ -33,6 +34,8 @@ a:hover {
 section{
     padding: 10vh 0vh 10vh 0vh;
     margin: 10px 15px 10px 15px;
+    line-height: 2em;
+    font-size: 2.5vw;
 }
 
 
@@ -40,7 +43,7 @@ section > p{
     text-align: justify;
     padding-right: 5px;
     /*background-color: #a9a9a97a;*/
-    max-width: 500px;
+
     font-size: 25px;
 
 }
@@ -59,9 +62,12 @@ section.normal > p{
 section.imagem{
     background-color: lightgreen;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 section.imagem > p{
+    display: inline-block;
+    padding: 7px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: rgba(211, 211, 211, 0.543);
