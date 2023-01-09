@@ -1,106 +1,78 @@
 @charset "UTF-8";
-/*
-dimen:  1920x1280
-        1920x1175
-*/
-*{
+
+
+body, html{
     margin: 0px;
-    padding: 0px;
+    background-color: white;
 }
+
+
 header{
     margin: auto;
-    text-align: center;
-    padding: 50px;
-    background-color: #53413A;
+    background-color: #a9a9a9;
     color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 2.4em;
 }
 
-header > h1, p{
-    padding-bottom: 5px;
-}
 
-header > p > a {
+header > p > a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-header > p > a:hover{
+header > p > a:hover {
     text-decoration: underline;
-    color: lightcoral;
 }
 
-main{
-    margin: 10px
-}
+
 
 section{
-    margin: auto;
-    color: black;
+    padding: 10px;
     margin: 10px;
-    height: 700px;
-    width: 90vw;
+    height: 80vh;
 }
+
 
 section > p{
-    line-height: 2em;
-    color: rgb(0, 0, 0);
-    padding: 10px 0px 20px 0p;
-    background-color: white;
-    width: 40vw;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-size: 2em;
+    padding: 10px;
+    background-color: #a9a9a97a;
+    width: 500px;
+
 }
+
 
 section.normal{
-    background-attachment: fixed;    
-    color: rgb(0, 0, 0);
-    padding: 40px;
-    background-color: #ffffff;
-    
+    background-color: navajowhite;
 }
+
 
 section.imagem{
+    background-color: lightgreen;
     background-attachment: fixed;
-    padding: 40px;
-    background-color: #6c6c6c;
 }
-
-
-
-
-section.imagem > p{
-    padding: 7px;
-    color: white;
-    background-color: #53413a86;
-}
-
-footer{
-    margin: auto;
-    padding: 12px;
-    background-color: #53413A;
-    color: white;
-    text-align: center;
-}
-
 
 #b1{
     background-image: url("img/girasolvarios.jpg");
-    background-position: right bottom;
+    background-position: center center;
 }
-
 #b2{
     background-image: url("img/preedio.jpg");
-    background-position: left bottom;
-    
-}
-#b2 > p > em{
-    font-weight: bold;
-    background-color: #53413A;
+    background-position: right bottom;
 }
 #b3{
-    background-image: url("img/valdemorte.jpg");
-    background-position: right center;
     
 }
+
+
+footer{
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+
