@@ -43,7 +43,7 @@ section{
 section > p{
     line-height: 2em;
     color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 10px 0px 20px 0p;
     background-color: white;
     width: 40vw;
     padding-top: 10px;
@@ -62,16 +62,18 @@ section.normal{
 
 section.imagem{
     background-attachment: fixed;
-    padding: 10px;
+    padding: 40px;
     background-color: #6c6c6c;
     background-image: url("");
 }
 section.imagem > p{
+    padding: 7px;
     color: white;
     background-color: #53413a86;
 }
 
 footer{
+    display: inline;
     margin-top: 15px;
     padding: 12px;
     background-color: #53413A;
@@ -86,8 +88,8 @@ footer{
 }
 
 #b2{
-    background-image: url("img/place.jpg");
-    background-position: center center;
+    background-image: url("img/preedio.jpg");
+    background-position: left bottom;
     
 }
 #b2 > p > em{
@@ -95,5 +97,7 @@ footer{
     background-color: #53413A;
 }
 #b3{
-    background-image: url("img/");
+    background-image: url("img/valdemorte.jpg");
+    background-position: right center;
+    margin: 0px;
 }
