@@ -63,7 +63,8 @@ section.imagem{
     background-position: right bottom;
 }
 #b3{
-    
+    background-image: url("img/valdemorte.jpg");
+    background-position: right center;
 }
 
 
