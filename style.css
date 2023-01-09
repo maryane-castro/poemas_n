@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    padding: 50px;
+    background-color: #53413A;
+    color: white;
+}
+
+
+main > section > p{
+    margin: 5px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.normal{
+    color: white;
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    width: 400px;
+    background-color: #AD725F;
+    
+}
+
+.imagem{
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    width: 400px;
+    background-color: #6c6c6c;
+}
+
+
+footer{
+    background-color: #53413A;
+    text-align: center;
+}
