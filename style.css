@@ -9,7 +9,7 @@ body, html{
 
 header{
     margin: auto;
-    background-color: #a9a9a9;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 30px;
@@ -17,14 +17,15 @@ header{
 }
 
 
-header > p > a{
+a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-header > p > a:hover {
+a:hover {
     text-decoration: underline;
+    color: rgb(171, 171, 171);
 }
 
 
@@ -81,9 +82,11 @@ section.imagem > p{
 footer{
     margin: auto;
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.762);
     color: white;
     padding: 5px;
 }
+
+
 
 
