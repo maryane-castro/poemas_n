@@ -14,36 +14,62 @@ header{
     color: white;
 }
 
+header > h1, p{
+    padding-bottom: 5px;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+    color: lightcoral;
+}
+
 main{
     margin: 10px
 }
 
 section{
     color: black;
-    margin: 10px 0px 0px 10px;
+    margin: 10px;
+    min-height: 700px;
+    width: 100vw;
 }
 
 section > p{
-    width: 400px;
+    line-height: 2em;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: white;
+    width: 40vw;
     padding-top: 10px;
     padding-bottom: 20px;
-    
+    font-size: 2em;
 }
 
 section.normal{
-    color: white;
-    padding: 10px;
-    width: 400px;
-    background-color: #AD725F;
+    position: relative;
+    left: 25vw;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-color: #ffffff;
     
 }
 
 section.imagem{
+    background-attachment: fixed;
     padding: 10px;
     background-color: #6c6c6c;
     background-image: url("");
 }
-
+section.imagem > p{
+    color: white;
+    background-color: #53413a86;
+}
 
 footer{
     margin-top: 15px;
@@ -51,4 +77,23 @@ footer{
     background-color: #53413A;
     color: white;
     text-align: center;
+}
+
+
+#b1{
+    background-image: url("img/girasolvarios.jpg");
+    background-position: right bottom;
+}
+
+#b2{
+    background-image: url("img/place.jpg");
+    background-position: center center;
+    
+}
+#b2 > p > em{
+    font-weight: bold;
+    background-color: #53413A;
+}
+#b3{
+    background-image: url("img/");
 }
