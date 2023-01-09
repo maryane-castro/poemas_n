@@ -8,6 +8,7 @@ dimen:  1920x1280
     padding: 0px;
 }
 header{
+    margin: auto;
     text-align: center;
     padding: 50px;
     background-color: #53413A;
@@ -73,8 +74,7 @@ section.imagem > p{
 }
 
 footer{
-    display: inline;
-    margin-top: 15px;
+    margin: auto;
     padding: 12px;
     background-color: #53413A;
     color: white;
