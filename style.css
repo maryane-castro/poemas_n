@@ -30,28 +30,38 @@ header > p > a:hover {
 
 
 section{
-    padding: 10px;
-    margin: 10px;
-    height: 80vh;
+    padding: 10vh 0vh 10vh 0vh;
+    margin: 10px 15px 10px 15px;
 }
 
 
 section > p{
+    text-align: justify;
     padding: 10px;
-    background-color: #a9a9a97a;
+    /*background-color: #a9a9a97a;*/
     width: 500px;
+    font-size: 1.6em;
 
 }
 
 
 section.normal{
-    background-color: navajowhite;
+    background-color: rgb(255, 255, 255);
+}
+
+section.normal > p{
+    margin-left: 10px;
 }
 
 
 section.imagem{
     background-color: lightgreen;
     background-attachment: fixed;
+}
+
+section.imagem > p{
+    margin-left: 10px;
+    background-color: rgba(211, 211, 211, 0.543);
 }
 
 #b1{
