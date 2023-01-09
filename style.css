@@ -35,10 +35,11 @@ main{
 }
 
 section{
+    margin: auto;
     color: black;
     margin: 10px;
-    min-height: 700px;
-    width: 100vw;
+    height: 700px;
+    width: 90vw;
 }
 
 section > p{
@@ -53,10 +54,9 @@ section > p{
 }
 
 section.normal{
-    position: relative;
-    left: 25vw;
+    background-attachment: fixed;    
     color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 40px;
     background-color: #ffffff;
     
 }
@@ -65,8 +65,11 @@ section.imagem{
     background-attachment: fixed;
     padding: 40px;
     background-color: #6c6c6c;
-    background-image: url("");
 }
+
+
+
+
 section.imagem > p{
     padding: 7px;
     color: white;
@@ -99,5 +102,5 @@ footer{
 #b3{
     background-image: url("img/valdemorte.jpg");
     background-position: right center;
-    margin: 0px;
+    
 }
